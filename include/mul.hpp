@@ -7,7 +7,4 @@
 class Mul : public ASTNode {
   public:
     Mul(ASTNode *lhs, ASTNode *rhs);
-  private:
-    ASTNode *lhs_;
-    ASTNode *rhs_;
 };

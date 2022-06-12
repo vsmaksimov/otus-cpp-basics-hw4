@@ -1,4 +1,4 @@
 #include "variable.hpp"
 
-Variable::Variable(std::string var)
+Variable::Variable(const std::string &var)
     : ASTNode(var) {}

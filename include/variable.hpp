@@ -6,5 +6,5 @@
 
 class Variable : public ASTNode {
   public:
-    Variable(std::string var);
+    Variable(const std::string &var);
 };
